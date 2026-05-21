@@ -13,6 +13,8 @@
     "isolatedModules": true,
     "jsx": "react-jsx",
     "incremental": true,
+    // Next.js 13.4+ introduces some deprecations that can be ignored for now
+    "ignoreDeprecations": "6.0",
     "plugins": [
       {
         "name": "next"
